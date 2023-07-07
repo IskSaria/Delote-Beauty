@@ -1,0 +1,348 @@
+/*
+font-family: 'Cormorant Garamond', serif;
+font-family: 'EB Garamond', serif;
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 67.5%;
+    margin: auto;
+}
+.first-screen{
+    background-image: url(img/first-page-bg.png);
+    background-size: cover;
+}
+.header__items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.header__title{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header__title:hover{
+    color: #CDAA7D;
+    text-decoration: underline;
+}
+.header__line{
+    opacity: 0.5;
+    margin-bottom: 0px;
+}
+
+.first-screen__text{
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    color: #fff;
+    max-width: 553px;
+    margin: 260px auto 290px;
+}
+
+.first-screen__under{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 102px;
+}
+.first-screen__subtext{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #fff;
+    margin-left: 20px;
+}
+
+/*------discription------*/
+.discription{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 95px;
+}
+.discription__img{
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+.discription__text{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+    max-width: 856px;
+    margin: auto;
+}
+
+/*----------services-----------*/
+.services{
+    background-color: #000;
+    color: #fff;
+    font-family: 'EB Garamond', serif;
+}
+.services__items{
+    display: flex;
+}
+.services__item{
+    margin-right: 44px;
+    margin-bottom: 60px;
+    position: relative;
+    
+}
+.services__text{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    margin-top: 30px;
+}
+.services-img{
+    
+}
+.services__item::after{
+    content: "";
+    width: 396px;
+    height: 300px;
+    border: 1px solid #CDAA7D;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+/*-------cosmetics----*/
+.cosmetics{
+    background-color: #000;
+}
+.cosmetics__items{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 168px;
+    justify-content: space-around;
+}
+.cosmetic__item{
+    padding: 18px 118;
+    opacity: 0.5;
+}
+
+
+/*----------our work-----------*/
+.our-work{
+    background-color: #000;
+    text-align: center;
+}
+.our-work__title{
+    font-family: 'EB Garamond', serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+.our-work__navs{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.our-work__nav{
+    font-family: 'Cormorant Garamond', serif;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    margin-right: 60px;
+}
+.our-work__nav:hover{
+    text-decoration: underline;
+    color: #CDAA7D;
+}
+.our-work___images{
+    margin-top: 55px;
+}
+.our-work__img-line{
+    display: flex;
+}
+.our-work__img{
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+/*----------footer--------*/
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding-top: 100px;
+}
+.footer__items{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.footer__contact-title,
+.footer__work-title,
+.footer__inst-title{
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 25px;
+}
+.footer__contact,
+.footer__time{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+.footer__line{
+    opacity: 0.5;
+}
+.footer__subtext{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    opacity: 0.5;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/*------------masters----*/
+.firsr-screen2{
+    background-color: #000;
+    
+}
+.masters{
+    background-color: #000;
+    color: #fff;
+}
+.masters-title{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+.masters-items{
+    display: flex;
+}
+.msater-item{
+    margin-right: 40px;
+    position: relative;
+}
+.master-item__title{
+    margin-top: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+}
+.master-item__subtitle{
+    margin-top: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    margin-bottom: 70px;
+}
+.master__img::after{
+    content: "";
+    width: 396px;
+    height: 477px;
+    border: 1px solid #CDAA7D;
+    position: absolute;
+    right: -16px;
+    top: -20px;
+}
+
+/*---------cost--------*/
+.cost{
+    background-color: #000;
+    color: #fff;
+}
+.cost__title{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+}
+.cost__item{
+    display: flex;
+    padding-bottom: 80px;
+}
+.cost__service{
+    margin-left: 134px;
+    border-bottom: 1px solid #fff;
+    
+}
+.cost_service-name{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+    display: flex;
+    margin-top: 35px;
+}
+.cost__cost{
+    margin-left: 150px;
+}
+.cost__add-service{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.cost__service2{
+    border-bottom: 1px solid #fff;
+    margin-right: 200px;
+}
+
+/*-----------contacts---------------*/
+.contacts{
+    background-color: #000;
+    color: #fff;
+    padding-top: 80px;
+}
+.contacts__title{
+    padding-bottom: 80px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+}
+.contacts__items{
+    display: flex;
+    margin-top: 80px;
+}
+.contacts__items{
+    display: flex;
+    justify-content: space-around;
+}
+.contacts__item{
+    display: flex;
+}
+.cont-cont{
+    padding-right: 40px;
+}
+
+
